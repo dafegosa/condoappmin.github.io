@@ -1,0 +1,33 @@
+.features {
+  background-color: $secondary;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  align-items: center;
+
+  &__title {
+    font-size: 3rem;
+  }
+
+  &__description {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  &__price {
+    font-size: 3.5rem;
+    font-weight: 400;
+  }
+
+  &__features {
+    list-style-type: none;
+    text-align: center;
+
+    .item {
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+    }
+  }
+}

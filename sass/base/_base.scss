@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $grey;
+  overflow-x: hidden;
+
+  box-sizing: border-box;
+  background-color: $secondary;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

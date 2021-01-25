@@ -1,0 +1,31 @@
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+
+  &__logo {
+    height: 6rem;
+    margin-right: 50vw;
+    margin-left: 8rem;
+  }
+
+  &__menu {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    color: white;
+
+    &--item {
+      margin-left: 4rem;
+      font-size: 1.4rem;
+      cursor: pointer;
+      transition: all 0.2s linear;
+
+      &:hover {
+        transform: rotate(-12deg);
+        scale: 1.2;
+      }
+    }
+  }
+}

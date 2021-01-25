@@ -1,0 +1,58 @@
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 0;
+  background-color: $primary;
+  overflow: hidden;
+  width: 100vw;
+
+  &__left {
+    line-height: 1.2;
+    margin-top: 15rem;
+    margin-left: 8rem;
+    height: 60%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    flex-basis: 100%;
+
+    &--title {
+      width: 70%;
+      font-family: 'Cormorant Garamond';
+      font-weight: 700;
+      font-size: 4rem;
+      line-height: 1;
+      span {
+        color: $secondary;
+        font-weight: 400;
+      }
+    }
+
+    &--content {
+      color: $grey;
+      font-size: 1.5rem;
+      font-weight: 400;
+      width: 60%;
+      margin: 4rem 0;
+    }
+
+    &--cta {
+      &-left {
+        color: wheat;
+      }
+    }
+  }
+  &__right {
+    width: 50vw;
+    height: 100vh;
+    background-image: url('../../assets/pic.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-right: 0;
+    padding-right: 0;
+    flex-basis: 100%;
+  }
+}

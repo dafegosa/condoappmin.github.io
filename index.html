@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Poppins:wght@100;300;400;600;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="header__logo" src="./assets/logo.png" alt="logo" />
+      <ul class="header__menu">
+        <li class="header__menu--item"><a href="#software">software</a></li>
+        <li class="header__menu--item"><a href="#price">precios</a></li>
+        <li class="header__menu--item">login</li>
+        <li class="header__menu--item">signup</li>
+      </ul>
+    </header>
+
+    <section class="home">
+      <div class="home__left">
+        <h1 class="home__left--title">
+          Gestiona la <span>administración</span> de tu conjunto desde
+          <span>cualquier dispositivo</span>
+        </h1>
+        <p class="home__left--content">
+          Versátil, intuitivo y elegante. Estás a punto de conocer el software
+          de administración más potente del mercado. <br /><br />CondoApp es
+          100% adaptable a las necesidades de tu conjunto. Con solo un par de
+          clics tendrás un amplio panorama del poder de la tecnología al
+          servicio de la administración.
+        </p>
+        <div class="home__left--cta">
+          <button class="btn btn--filled">Ver planes</button>
+          <button class="btn btn--outline">Demo</button>
+        </div>
+      </div>
+      <div class="home__right"></div>
+    </section>
+
+    <div class="cards" id="software">
+      <div class="card">
+        <div
+          class="card__img"
+          style="background-image: url(./assets/admin.jpg)"
+        ></div>
+        <h1 class="card__title">ADMINISTRACIÓN</h1>
+        <p class="card__text">
+          Anade residentes y gestiona la utilización de las áreas comunes. Todo
+          con un clic y 100% personalizable según las necesidades de tu
+          conjunto.
+        </p>
+      </div>
+      <div class="card">
+        <div
+          class="card__img"
+          style="background-image: url(./assets/cont.jpg)"
+        ></div>
+        <h1 class="card__title">CONTABILIDAD</h1>
+        <p class="card__text">
+          Recibe pagos, mira estados de cuenta y genera listas detalladas de los
+          estados contables. La contabilidad nunca fue tan fácil.
+        </p>
+      </div>
+      <div class="card" id="price">
+        <div
+          class="card__img"
+          style="background-image: url(./assets/mess.jpg)"
+        ></div>
+        <h1 class="card__title">MENSAJERÍA</h1>
+        <p class="card__text">
+          Responde las quejas rápidamente con nuestro sistema de mensajería.
+          Tienes un mensaje urgente para todos? En menos de un minuto informa a
+          toda la comunidad.
+        </p>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <h2 class="features__title">GRATIS</h2>
+        <p class="features__description">Prueba la app por siete días</p>
+        <h2 class="features__price">$ 0</h2>
+        <ul class="features__features">
+          <li class="item">1 conjunto</li>
+          <li class="item">1 administrador</li>
+          <li class="item">10 residentes</li>
+          <li class="item">1 correo</li>
+        </ul>
+        <button class="btn">Demo</button>
+      </div>
+      <div class="feature--blue">
+        <h2 class="features__title">STANDARD</h2>
+        <p class="features__description">
+          Ideal para cualquier tipo de conjunto
+        </p>
+        <h2 class="features__price">$ 289.000</h2>
+        <ul class="features__features">
+          <li class="item">1 conjunto</li>
+          <li class="item">1 administrador</li>
+          <li class="item">residentes ilimitados</li>
+          <li class="item">20 correos</li>
+        </ul>
+        <button class="btn--outline">Comprar</button>
+      </div>
+      <div class="feature">
+        <h2 class="features__title">EMPRESARIAL</h2>
+        <p class="features__description">Para empresas</p>
+        <h2 class="features__price">$ 899.000</h2>
+        <ul class="features__features">
+          <li class="item">conjuntos ilimitados</li>
+          <li class="item">administradores ilimitados</li>
+          <li class="item">residentes ilimitados</li>
+          <li class="item">correos ilimitados</li>
+        </ul>
+        <button class="btn">Comprar</button>
+      </div>
+    </div>
+  </body>
+</html>

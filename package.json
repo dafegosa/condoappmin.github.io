@@ -1,0 +1,13 @@
+{
+  "name": "condo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.32.4",
+    "watch": "^1.0.2"
+  },
+  "scripts": {
+    "compile": "sass sass/main.scss css/style.css --watch"
+  }
+}
